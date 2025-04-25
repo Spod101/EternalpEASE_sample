@@ -10,9 +10,8 @@ export const Header = () => {
                 </Link>
                 <nav className="hidden md:flex gap-6 items-center">
                     <Link href="/about" className="hover:text-primary transition-colors">About</Link>
-                    <Link href="/" className="hover:text-primary transition-colors">Services</Link>
-                    <Link href="/" className="hover:text-primary transition-colors">Packages</Link>
-                    <Link href="/" className="hover:text-primary transition-colors">Contact</Link>
+                    <Link href="/package" className="hover:text-primary transition-colors">Packages</Link>
+                    <Link href="/contact" className="hover:text-primary transition-colors">Contact</Link>
                     <Link href="/login">
                         <Button variant="outline" className="mr-2">Login</Button>
                     </Link>
