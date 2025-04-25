@@ -1,4 +1,4 @@
-
+'use client'
 
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
@@ -6,9 +6,9 @@ import { motion } from "framer-motion";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 
-export default function AboutPage(){
+export default function About(){
     return (
-        <>
+        <div>
             <Header />
             <main className="bg-gradient-to-b from-blue-50 to-white">
             <section className="py-20">
@@ -44,6 +44,6 @@ export default function AboutPage(){
             </section>
             </main>
             <Footer />
-        </>
+        </div>
     )
 }
