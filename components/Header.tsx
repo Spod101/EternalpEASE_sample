@@ -48,7 +48,9 @@ export const Header = () => {
                     <Link href="/login">
                         <Button variant="outline" className="mr-2">Login</Button>
                     </Link>
-                    <Button>Sign Up</Button>
+                    <Link href="/api">
+                        <Button variant="outline">Sign Up</Button>
+                    </Link>
                 </nav>
             </div>
         </header>
