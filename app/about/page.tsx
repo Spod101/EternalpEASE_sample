@@ -8,7 +8,7 @@ import { Header } from "@/components/Header";
 
 export default function About(){
     return (
-        <div>
+        <div className="min-h-screen">
             <Header />
             <main className="bg-gradient-to-b from-blue-50 to-white">
             <section className="py-20">

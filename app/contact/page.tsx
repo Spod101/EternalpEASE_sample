@@ -10,7 +10,7 @@ import { Header } from "@/components/Header";
 
 export default function ContactPage() {
     return (
-        <>
+        <div className="min-h-screen">
         <Header />
 
         <section className="py-16 bg-gradient-to-b from-blue-100 to-white text-center">
@@ -142,6 +142,6 @@ export default function ContactPage() {
         </section>
 
         <Footer />
-        </>
+        </div>
     );
 }
