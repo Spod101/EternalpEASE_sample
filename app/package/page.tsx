@@ -120,7 +120,11 @@ export default function PackagesPage() {
                 <h2 className="text-4xl font-bold text-primary mb-8">
                 What Our Clients Say
                 </h2>
-                <Carousel className="w-full max-w-screen-md mx-auto">
+                <Carousel className="w-full max-w-screen-md mx-auto"
+                opts={{
+                    align: "start",
+                    loop: true,
+                }}>
                 <CarouselContent>
                     {testimonials.map((testimonial, index) => (
                     <CarouselItem key={index}>
