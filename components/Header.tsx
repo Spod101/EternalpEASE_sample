@@ -49,7 +49,7 @@ export const Header = () => {
                         <Button variant="outline" className="mr-2">Login</Button>
                     </Link>
                     <Link href="/chatbot">
-                        <Button variant="outline">Chatbot</Button>
+                        <Button variant="outline">AI Chatbot</Button>
                     </Link>
                 </nav>
             </div>
