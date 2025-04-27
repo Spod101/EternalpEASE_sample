@@ -53,21 +53,21 @@ export default function Chatbot() {
   return (
     <Card className="w-full max-w-md mx-auto h-[600px] flex flex-col shadow-lg bg-[#f8f9fa]">
       <CardHeader className="border-b border-[#e6ebf4]">
-        <CardTitle className="text-center text-[#5a8bc9]">EternalPeaseBot</CardTitle>
+        <CardTitle className="text-center text-[#5a8bc9]">EternalPease</CardTitle>
       </CardHeader>
 
       <CardContent className="flex-grow p-0">
         <ScrollArea className="h-[480px] p-4">
           {messages.length === 0 ? (
             <div className="flex items-center justify-center h-full text-[#2d2e32] opacity-50">
-              Start a conversation with EternalPeaseBot
+              Start a conversation with EternalPease
             </div>
           ) : (
             <div className="space-y-4">
               {messages.map((msg, index) => (
                 <div key={index} className={`flex ${msg.role === "user" ? "justify-end" : "justify-start"}`}>
                   <div className={`flex gap-2 max-w-[80%] ${msg.role === "user" ? "flex-row-reverse" : "flex-row"}`}>
-                    <Avatar className="h-15 w-15">
+                    <Avatar className="h-10 w-10">
                         <AvatarImage src={msg.role === "user" ? "/user.svg" : "/bot.svg"} />
                         <AvatarFallback className={`bg-${msg.role === "user" ? "[#5a8bc9]" : "[#2d2e32]"} text-white text-xs`}>
                             {msg.role === "user" ? "You" : "bot"}
@@ -91,7 +91,7 @@ export default function Chatbot() {
                 <div className="flex justify-start">
                   <div className="flex gap-2 max-w-[80%]">
                     <Avatar className="h-8 w-8 bg-[#2d2e32]">
-                      <span className="text-xs text-white">EP</span>
+                      <span className="text-xs text-white">Eternalbot</span>
                     </Avatar>
                     <div className="p-3 rounded-lg bg-[#e6ebf4] rounded-tl-none">
                       <div className="flex space-x-1">
