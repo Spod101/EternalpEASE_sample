@@ -17,7 +17,7 @@ export const Header = () => {
                             <span className="sr-only">Toggle navigation menu</span>
                         </Button>
                     </SheetTrigger>
-                    <SheetContent side="left" className="w-64">
+                    <SheetContent side="right" className="w-64">
                         <nav className="grid gap-4 p-4">
                             <Link href="/about" className="hover:text-primary transition-colors text-lg font-medium">
                                 About
@@ -28,10 +28,14 @@ export const Header = () => {
                             <Link href="/contact" className="hover:text-primary transition-colors text-lg font-medium">
                                 Contact
                             </Link>
-                            <Link href="/login" className="hover:text-primary transition-colors text-lg font-medium">
-                                Login
+                            <Link href="/chatbot" className="hover:text-primary transition-colors text-lg font-medium">
+                                Chatbot
                             </Link>
-                            <Button>Sign Up</Button>
+                            <Button>
+                                <Link href="/login" className="hover:text-primary transition-colors text-lg font-medium">
+                                    Login
+                                </Link>
+                            </Button>
                         </nav>
                     </SheetContent>
                 </Sheet>
