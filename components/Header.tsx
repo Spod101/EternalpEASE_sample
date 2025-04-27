@@ -48,7 +48,7 @@ export const Header = () => {
                     <Link href="/login">
                         <Button variant="outline" className="mr-2">Login</Button>
                     </Link>
-                    <Link href="/api">
+                    <Link href="/chatbot">
                         <Button variant="outline">Sign Up</Button>
                     </Link>
                 </nav>
