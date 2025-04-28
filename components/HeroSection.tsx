@@ -8,7 +8,7 @@ return (
         <h1 className="text-4xl md:text-6xl font-bold mb-6 text-secondary-foreground">
         Compassionate Funeral Services for Your Loved Ones
         </h1>
-        <p className="text-lg mb-8 text-gray-600">
+        <p className="text-lg mb-8 text-gray-800">
         Honoring Lives, Cherishing Memories
         </p>
         <div className="flex gap-4 justify-center">

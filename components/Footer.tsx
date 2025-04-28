@@ -22,8 +22,8 @@ export const Footer = () => {
                 <h4 className="font-bold mb-4">Contact</h4>
                 <ul className="space-y-2 text-gray-400">
                 <li>123 Memorial Lane</li>
-                <li>Capital City</li>
-                <li>Phone: (555) 123-4567</li>
+                <li>Tuguegarao City</li>
+                <li>Phone: 09970731563</li>
                 <li>Email: info@eternalpeace.com</li>
                 </ul>
             </div>
